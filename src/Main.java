@@ -69,10 +69,19 @@ public class Main {
         System.out.println(white);
         double brown = 4;
         System.out.println(brown);
-        double paint = 120;
-        System.out.println(paint);
+        double totalCan = 120;
+        System.out.println(totalCan);
         double oneClass = white + brown;
         System.out.println(oneClass);
+        double totalClasses = totalCan / (white + brown);
+        double totalWhite = totalClasses * white;
+        System.out.println(totalWhite);
+        double totalBrown = totalClasses * brown;
+        System.out.println("В школе, где" + totalClasses + " -классо, нужен" + totalWhite + " - банок белой краски и" + totalBrown + "- банок коричневой краски");
+
+
+
+
 
 
 
